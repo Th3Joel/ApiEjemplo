@@ -1,0 +1,25 @@
+{
+  "name": "api-rest-node",
+  "version": "1.0.0",
+  "description": "API  Rest",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "compilar": "pkg -t node18-win-x64 ."
+  },
+  "author": "Joel Urbina",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.1",
+    "multer": "^1.4.5-lts.1",
+    "serve-handler": "^6.1.5",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
