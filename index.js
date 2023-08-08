@@ -8,7 +8,7 @@ const readline = require("readline");
 console.log("Joel urbina - API");
 
 	//Elegir el puerto
-	let puerto =80;
+	let puerto =process.env.PORT ?? 8080;;
 
 		  //Conectar a la base de datos
 
@@ -62,7 +62,7 @@ console.log("Joel urbina - API");
 		//Crear servidor y eschuchar peticiones http
 
 
-		app.listen(puerto,"0.0.0.0", () => {
+		app.listen(puerto,() => {
 			console.log("Servidor corriendo en el puerto "+puerto);
 		});
 
