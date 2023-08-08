@@ -33,11 +33,11 @@ console.log("Joel urbina - API");
 
 		//Crear rutas
 
-		//const rutas_articulos = require("./rutas/articulo");
+		const rutas_articulos = require("./Rutas/articulo");
 
 		//Cargo las rutas
 
-		//app.use("/api",rutas_articulos);
+		app.use("/api",rutas_articulos);
 
 		//Rutas pruebas declaradas aqui
 				//Devuelve objetos json
