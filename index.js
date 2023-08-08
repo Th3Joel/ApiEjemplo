@@ -12,7 +12,7 @@ console.log("Joel urbina - API");
 
 		  //Conectar a la base de datos
 
-		conexion();
+		//conexion();
 
 
 		//Crear servidor node
